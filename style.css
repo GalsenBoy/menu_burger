@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: cursive;
+}
+
 header {
     background-color: salmon;
 }
@@ -56,9 +60,11 @@ ul>li>a:hover {
         justify-content: space-around;
         background-color: rgb(26, 24, 24);
         visibility: hidden;
+        transition: transform 1s
     }
     ul>li>a {
         color: aqua;
+        font-size: 2rem;
     }
     ul>li>a:hover {
         background-color: aqua;
