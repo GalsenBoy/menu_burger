@@ -72,12 +72,20 @@ ul>li>a:hover {
         padding: 10px 15px;
         border-radius: 17px;
     }
+    .fermer {
+        position: absolute;
+        right: 8px;
+        font-size: 300px;
+        top: 20px;
+    }
     .contains {
         display: flex;
         justify-content: space-between;
     }
     .ouvrir {
         visibility: visible;
+        position: relative;
+        right: 6px;
     }
     .show {
         visibility: visible;
