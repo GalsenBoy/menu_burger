@@ -48,7 +48,7 @@ ul>li>a:hover {
     border-radius: 17px;
 }
 
-@media screen and (max-width: 772px) {
+@media screen and (max-width: 810px) {
     .menu {
         position: absolute;
         top: 68px;
